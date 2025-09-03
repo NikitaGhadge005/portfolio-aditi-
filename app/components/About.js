@@ -41,13 +41,13 @@ const About = () => {
           className="max-w-4xl"
         >
           <p className="text-base sm:text-lg leading-relaxed text-gray-300">
-            Hi! I'm <span className="font-semibold text-white">Nikita Ghadge</span>, 
+            Hi! I&apos;m <span className="font-semibold text-white">Nikita Ghadge</span>, 
             a passionate <span className="text-[#915EFF]">Full Stack Web Developer</span> 
             specializing in the <span className="font-semibold">MERN stack</span>.  
-            I’m currently pursuing my <span className="font-semibold">B.Voc in Software Development</span> 
-            with a strong academic record (CGPA 9.83 & 9.50).
+            I&apos;m currently pursuing my <span className="font-semibold">B.Voc in Software Development</span> 
+            with a strong academic record (CGPA 9.83 &amp; 9.50).
             <br /><br />
-            Alongside my studies, I’m interning at <span className="font-semibold">YCIS OIT</span>, 
+            Alongside my studies, I&apos;m interning at <span className="font-semibold">YCIS OIT</span>, 
             where I work on real-world projects involving 
             <span className="text-[#915EFF]"> React.js, Node.js, and MongoDB</span>.  
             My journey has also included building professional websites 

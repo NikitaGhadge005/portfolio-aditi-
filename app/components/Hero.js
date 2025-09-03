@@ -19,7 +19,7 @@ const Hero = () => {
       <div
         className={`absolute inset-0 top-[80px] sm:top-[100px] lg:top-[120px] max-w-7xl mx-auto ${styles.paddingX} flex flex-col md:flex-row items-center md:items-start gap-10 z-10 pt-20`}
       >
-        {/* Profile Image (Left on Desktop) */}
+        {/* Profile Image */}
         <motion.div
           className="flex-1 flex justify-center md:justify-self-center items-center"
           initial={{ opacity: 0, scale: 0.8 }}
@@ -40,7 +40,7 @@ const Hero = () => {
           </motion.div>
         </motion.div>
 
-        {/* Left Line + Circle (Still for Desktop) */}
+        {/* Line + Circle */}
         <motion.div
           className="hidden md:flex flex-col justify-center items-center mt-5"
           initial={{ opacity: 0, y: 50 }}
@@ -59,7 +59,7 @@ const Hero = () => {
           transition={{ duration: 1, ease: "easeOut" }}
         >
           <h1 className={`${styles.heroHeadText} text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl`}>
-            Hi, I'm{" "}
+            Hi, I&apos;m{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#915EFF] to-[#6B5BFF]">
               Nikita
             </span>
