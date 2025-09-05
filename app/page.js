@@ -11,13 +11,13 @@ import Projects from './components/Project'
 const page = () => {
   return (
     <div>
-      <Navbar/>
-
+      
+     <Navbar/>
      <Hero/>
      <About/>
-  <Tech/>
- <Projects/> 
-   <Contact/>
+     <Tech/>
+     <Projects/> 
+     <Contact/>
   
     </div>
   )

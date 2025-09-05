@@ -72,7 +72,7 @@ const Hero = () => {
           >
             I develop 3D visuals, user{" "}
             <br className="hidden sm:block" />
-            interfaces and web applications
+            interfaces and Fullstack web applications
           </motion.p>
 
           {/* Download Resume Button */}
