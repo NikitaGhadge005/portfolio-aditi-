@@ -10,6 +10,7 @@ import {
   FiLinkedin,
   FiTwitter,
 } from "react-icons/fi";
+import { FaEnvelope, FaWhatsapp } from "react-icons/fa"; // ✅ Correct import
 import SplineModel from "./SplineModel";
 
 const Contact = () => {
@@ -79,9 +80,11 @@ const Contact = () => {
                   icon: <FiLinkedin />,
                   link: "https://www.linkedin.com/in/nikita-ghadge-907b49297/",
                 },
+               
+
                 {
-                  icon: <FiTwitter />,
-                  link: "https://twitter.com/yourusername",
+                  icon: <FaWhatsapp />, // WhatsApp
+                  link: "https://wa.me/918308457132", // Replace with your WhatsApp number
                 },
               ].map((item, index) => (
                 <motion.a
