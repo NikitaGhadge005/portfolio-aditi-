@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Nikita Ghadge | Full Stack Developer",
+  title: "Aditi Mane | Full Stack Developer",
   description: " Portfolio of Nikita Ghadge - Full Stack Developer ",
 };
 

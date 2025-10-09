@@ -20,27 +20,7 @@ const Navbar = () => {
     <nav className={`${styles.paddingX} w-full flex items-center py-4 fixed top-0 z-20 bg-[#03050C] shadow-md`}>
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        {/* Logo */}
-        <Link
-          href="/"
-          className="flex items-center gap-2"
-          onClick={() => {
-            setActive('Home');
-            window.scrollTo(0, 0);
-          }}
-        >
-          <Image
-            src="/logo.png"
-            alt="logo"
-            width={35}
-            height={35}
-            className="object-contain"
-          />
-          <p className="text-white text-lg sm:text-xl font-bold cursor-pointer">
-            Nikita <span className="hidden sm:inline">&nbsp;| Portfolio</span>
-          </p>
-        </Link>
-
+   
         {/* Desktop Menu */}
         <ul className="hidden md:flex list-none flex-row gap-6 lg:gap-10">
           {navLinks.map((link) => (
@@ -66,6 +46,27 @@ const Navbar = () => {
           </button>
         </div>
       </div>
+
+          {/* Logo */}
+        <Link
+          href="/"
+          className="flex items-center gap-2"
+          onClick={() => {
+            setActive('Home');
+            window.scrollTo(0, 0);
+          }}
+        >
+          <Image
+            src="/logo.png"
+            alt="logo"
+            width={35}
+            height={35}
+            className="object-contain"
+          />
+          <p className="text-white text-lg sm:text-xl font-bold cursor-pointer">
+            Aditi Mane <span className="hidden sm:inline">&nbsp;| Portfolio</span>
+          </p>
+        </Link>
 
       {/* Mobile Dropdown Menu */}
       {toggle && (

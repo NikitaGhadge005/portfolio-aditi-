@@ -41,13 +41,14 @@ const About = () => {
           className="max-w-4xl"
         >
           <p className="text-base sm:text-lg leading-relaxed text-gray-300">
-            Hi! I&apos;m <span className="font-semibold text-white">Nikita Ghadge</span>, 
+            Hi! I&apos;m <span className="font-semibold text-white">Aditi Mane</span>, 
             a passionate <span className="text-[#915EFF]">Full Stack Web Developer </span> 
               specializing in the <span className="font-semibold">MERN stack</span>.  
             I&apos;m currently pursuing my <span className="font-semibold">B.Voc in Software Development</span> 
             with a strong academic record (CGPA 9.83 &amp; 9.50).
             <br /><br />
-            Alongside my studies, I&apos;m interning at <span className="font-semibold">YCIS OIT</span>, 
+            I am a B. Voc (Software Development) student with a strong interest in frontend web development. I have hands-on experience using HTML, CSS, JavaScript, and MATLAB to build responsive and user-friendly web interfaces. I am a motivated and proactive learner, eager to enhance my technical skills, gain industry experience, and contribute to impactful software development projects.
+            {/* Alongside my studies, I&apos;m interning at <span className="font-semibold">YCIS OIT</span>, 
             where I work on real-world projects involving 
             <span className="text-[#915EFF]"> React.js, Node.js, and MongoDB</span>.  
             My journey has also included building professional websites 
@@ -57,7 +58,7 @@ const About = () => {
             <br /><br />
             Beyond coding, I value <span className="font-semibold">teamwork, communication, and time management</span>.  
             My goal is to craft modern, responsive, and impactful digital experiences 
-            that solve real-world problems.
+            that solve real-world problems. */}
           </p>
         </motion.div>
       </div>

@@ -74,17 +74,17 @@ const Contact = () => {
               {[
                 {
                   icon: <FiGithub />,
-                  link: "https://github.com/NikitaGhadge005",
+                  link: "https://github.com/aditi130355",
                 },
                 {
                   icon: <FiLinkedin />,
-                  link: "https://www.linkedin.com/in/nikita-ghadge-907b49297/",
+                  link: "https://www.linkedin.com/in/aditi-mane-975407374://www.linkedin.com/in/nikita-ghadge-907b49297/",
                 },
                
 
                 {
                   icon: <FaWhatsapp />, // WhatsApp
-                  link: "https://wa.me/918308457132", // Replace with your WhatsApp number
+                  link: "https://wa.me/918530513819", // Replace with your WhatsApp number
                 },
               ].map((item, index) => (
                 <motion.a
